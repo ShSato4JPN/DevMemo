@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Hello ギットハブ
 Goodbye Github
+=======
+Hello Github
+Goodbye Github
+test message
+>>>>>>> main
