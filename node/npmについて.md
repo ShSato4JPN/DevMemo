@@ -85,7 +85,7 @@ npm ERR! notsup Actual:   {"npm":"8.1.2","node":"v16.13.2"}
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/-----/.npm/_logs/2022-10-20T12_55_34_953Z-debug.log
 ```
-## ■　engine-strict=true
+## ■　progress=false
 パッケージインストール時のプログレスバーを非表示する。
 
 場合によっては 15 秒ほど速くなることもあるらしい。
