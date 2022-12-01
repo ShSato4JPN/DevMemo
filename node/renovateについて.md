@@ -14,17 +14,19 @@ https://github.com/marketplace/renovate
 ■ 設定の参考例
 ```
 {
+{
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "assignees": ["piro0919"],
-  "dependencyDashboard": true,
-  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+  "assignees": ["ShSato4JPN"],
+  "reviewers": ["ShSato4JPN"],
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
   "packageRules": [
     {
       "automerge": true,
       "groupName": "devDependencies",
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
-   },
+    },
     {
       "automerge": true,
       "groupName": "dependencies",
@@ -33,7 +35,6 @@ https://github.com/marketplace/renovate
     }
   ],
   "platformAutomerge": true,
-  "reviewers": ["piro0919"],
   "schedule": ["every weekend"]
 }
 ```
