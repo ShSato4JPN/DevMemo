@@ -22,3 +22,7 @@ Next.js には 3 種類の環境変数定義用のファイルが存在する。
 `NEXT_PUBLIC_` を付けずにブラウザに表示しようとするとエラーになる。
 
 ⇨　ビルドエラーにはならない。。
+
+Next のプロジェクトではないけど、Next の機能を使って読み込む場合。
+
+https://github.com/intercom/contentful-typescript-codegen/issues/104#issuecomment-1209970799
